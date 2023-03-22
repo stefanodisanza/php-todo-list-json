@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+   
+}
+.todo-list {
+    list-style: none;    
+}
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.todo-item.completed .todo-text {
+    text-decoration: line-through;
+}
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #cc0000;
+    margin-left: 10px;
+}
+.completed {
+    text-decoration: line-through;
+}
